@@ -1,0 +1,29 @@
+
+h1{
+    animation-name: subject;
+    transition: 1s ease-in-out all;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+@keyframes subject{
+    0%{transform: rotate(0deg);margin-left: -100%;};
+    100%{margin-left: 60%;};
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+#ocean {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#045c7c, #0d324e);
+}
+body {
+margin: 0;
+height: 100%;
+overflow: hidden;
+}
